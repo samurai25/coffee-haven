@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander K">
+    <meta name="description" content="Menu for the Coffee Haven">
+    <title>Our Menu</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_h1">Coffee Haven</h1> 
+        <fieldset class="header_fieldset">
+            <img src="images/logo.jpg" alt="coffee haven logo" width="100px">
+            <figcaption class="offscreen">Coffee Haven Logo</figcaption>    
+        </fieldset>
+        
+        <ul class="header_ul">
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>   
+    </header>
+    <main class="main">
+        <section id="hero" class="hero">
+            <h2>Our Menu</h2>
+            <fieldset>
+                <img src="images/menu.jpg" alt="coffee hero" width="1280px" height="853">
+                <figcaption class="offscreen">Coffee Hero</figcaption>
+            </fieldset>
+        </section>  
+        
+        <section class="menu">
+            <table class="menu-container">
+                <thead>
+                    <tr>
+                        <th class="menu_header" scope="col">Coffee</th>
+                        <th class="menu_header" scope="col">Price</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="menu_es">
+                        <th class="menu_item" scope="row">Espresso</th>
+                        <td class="menu_item" rowspan="3">Classic Espresso</td>
+                        <td class="menu_item" rowspan="3">Double Espresso</td>
+                        <td class="menu_item" rowspan="3">Americano</td>
+                        
+                    </tr>
+                    <tr class="menu_p">
+                        <td class="menu_item">$3</td>
+                    </tr>
+                    <tr class="menu_lt">
+                        <th class="menu_item">Latte</th>
+                        <td class="menu_item">Vanilla Latte</td>
+                        <td class="menu_item">Caramel Latte</td>
+                        <td class="menu_item">Mocha Latte</td>
+                        
+                    </tr>
+                    <tr class="menu_p">
+                        <td class="menu_item">$4.5</td>
+                    </tr>
+                    <tr class="menu_cp">
+                        <th class="menu_item">Cappuccino</th>
+                        <td class="menu_item">Classic Cappuccino</td>
+                        <td class="menu_item">Cinnamon Cappuccino</td>
+                        <td class="menu_item">Iced Cappuccino</td>
+                        
+                    </tr>
+                    <tr class="menu_p">
+                        <td class="menu_item">$4</td>
+                    </tr>
+                </tbody>
+                <tfoot class="menu_ds" colspan="2">
+                        <th class="menu_item">
+                            Desserts</th>
+                        <td>
+                            <ul>
+                                <li>Croissant</li>
+                                <li>Cheesecake</li>
+                                <li>Tiramisu</li>
+                                <li></li>
+                            </ul>    
+                        </td>
+                        </td>
+                        <td class="menu_item">$4.2</td>
+                </tfoot>
+            </table>
+        </section>
+          
+    </main>
+    <p class="center">
+        <a href="#hero">Back to Top</a>
+    </p>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Coffee Haven</span> 
+            <time id="year">2025</time>
+            <span class="nowrap">&copy; Copyright</span>
+        </p>
+    </footer>
+</body>
+</html>
