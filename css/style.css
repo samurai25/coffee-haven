@@ -43,7 +43,7 @@ textarea {
     --font-family-header: "Raleway", serif;
 
     /* BORDER */
-    --border: 2px solid var(--color-border);
+    --border: 1px solid var(--color-border);
     --border-shadow: 0 0 20px var(--color-border);
     --border-radius: 5px;
 
@@ -141,9 +141,6 @@ a:focus-visible {
     color: var(--color-accent-light);
 }
 
-fieldset {
-    border: none;
-}
 
 /* HEADER */
 
@@ -164,11 +161,6 @@ fieldset {
     position: absolute;
     top: 2px;
     left: 20px;
-}
-
-.header fieldset {
-    border: none;
-    width: 10%;
 }
 
 .header_nav {
@@ -268,7 +260,7 @@ fieldset {
 }
 
 .specials figure:hover {
-    border: 1px solid var(--color-accent-light);
+    border: var(--border);
     box-shadow: 0 0 20px var(--color-accent-light);
 }
 
@@ -331,21 +323,30 @@ tr {
 .menu-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
+    grid-template-areas: 
             "hd1 hd2"
-            "es esp"
-            "lt ltp"
-            "cp cpp"
+            "es es1"
+            "es es2"
+            "es es3"
+            "lt lt1"
+            "lt lt2"
+            "lt lt3"
+            "cp cp1"
+            "cp cp2"
+            "cp cp3"
             "ds ds";
 
-    max-width: 560px;
+    gap: 0.1em;
+    margin: 20px 0;
+
+    max-width: 620px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: var(--margin-bottom);
-    gap: 0.1em;
     background-color: var(--bgcolor-secondary);
     color: var(--color-text-secondary);
     box-shadow: var(--border-shadow);
+    border-radius: 15px;
 }
 
 .menu_es {
@@ -364,37 +365,42 @@ tr {
     grid-area: ds;
 }
 
-th {
-    color: var(--color-accent-light);
-}
-
 .menu_es,
 .menu_lt,
 .menu_cp,
 .menu_ds,
-.menu_header {
+.menu_header, 
+td {
+    border: 1px ridge gray;
+    padding: 0.5em;
     display: grid;
     place-content: center;
-    border: 2px ridge var(--color-border);
-    padding: 1em;
+    padding: 20px;
 }
 
-.menu_p {
-    display: grid;
-    place-content: center;
-    border: 2px ridge var(--color-border); 
-}
-
-.menu_item {
-    display: grid;
-    place-content: center;
-}
 
 .menu_ds ul {
     display: flex;
     gap: 2em;
+    line-height: 2;
 }
 
+
+thead th:first-child {
+    border-top-left-radius: 15px;
+}
+
+thead th:last-child {
+    border-top-right-radius: 15px;
+}
+
+tfoot {
+    border-bottom-left-radius: 15px;
+}
+
+tfoot {
+    border-bottom-right-radius: 15px;
+}
 
 /* CONTACT */
 

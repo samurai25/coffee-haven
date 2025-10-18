@@ -12,10 +12,10 @@
 <body>
     <header class="header">
         <h1 class="header_h1">Coffee Haven</h1> 
-        <fieldset class="header_fieldset">
-            <img src="images/logo.jpg" alt="coffee haven logo" width="100px">
+        <figure class="header_figure">
+            <img src="images/logo.jpg" alt="coffee haven logo" width="100">
             <figcaption class="offscreen">Coffee Haven Logo</figcaption>    
-        </fieldset>
+        </figure>
         
         <ul class="header_ul">
             <li><a href="/">Home</a></li>
@@ -27,65 +27,67 @@
     <main class="main">
         <section id="hero" class="hero">
             <h2>Our Menu</h2>
-            <fieldset>
-                <img src="images/menu.jpg" alt="coffee hero" width="1280px" height="853">
+            <figure>
+                <img src="images/menu.jpg" alt="coffee hero" width="1280" height="853">
                 <figcaption class="offscreen">Coffee Hero</figcaption>
-            </fieldset>
+            </figure>
         </section>  
         
         <section class="menu">
+            <h2 class="center">Menu</h2>
             <table class="menu-container">
                 <thead>
                     <tr>
-                        <th class="menu_header" scope="col">Coffee</th>
-                        <th class="menu_header" scope="col">Price</th> 
+                        <th class="menu_header" scope="col">Coffees</th>
+                        <th class="menu_header" scope="col">Prices</th> 
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="menu_es">
-                        <th class="menu_item" scope="row">Espresso</th>
-                        <td class="menu_item" rowspan="3">Classic Espresso</td>
-                        <td class="menu_item" rowspan="3">Double Espresso</td>
-                        <td class="menu_item" rowspan="3">Americano</td>
-                        
+                    <tr>
+                        <th rowspan="3" class="menu_item menu_es">Espresso</th>
+                        <td>Classic Espress - $3</td>
                     </tr>
-                    <tr class="menu_p">
-                        <td class="menu_item">$3</td>
+                    <tr>
+                        <td>Double Espresso - $3.5</td>    
                     </tr>
-                    <tr class="menu_lt">
-                        <th class="menu_item">Latte</th>
-                        <td class="menu_item">Vanilla Latte</td>
-                        <td class="menu_item">Caramel Latte</td>
-                        <td class="menu_item">Mocha Latte</td>
-                        
+                    <tr>
+                        <td class="menu_item">Americano - $3.5</td>    
                     </tr>
-                    <tr class="menu_p">
-                        <td class="menu_item">$4.5</td>
+
+                    <tr>
+                        <th rowspan="3" class="menu_item menu_lt">Latte</th>
+                        <td>Vanilla Latte - $4.5</td>
                     </tr>
-                    <tr class="menu_cp">
-                        <th class="menu_item">Cappuccino</th>
-                        <td class="menu_item">Classic Cappuccino</td>
-                        <td class="menu_item">Cinnamon Cappuccino</td>
-                        <td class="menu_item">Iced Cappuccino</td>
-                        
+                    <tr>
+                        <td>Caramel Latte - $4.5</td>
                     </tr>
-                    <tr class="menu_p">
-                        <td class="menu_item">$4</td>
+                    <tr>
+                        <td>Mocha Latte - $4.5</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="3" class="menu_item menu_cp">Cappuccino</th>
+                        <td>Classic Cappuccino - $4</td>
+                    </tr>
+                    <tr>
+                        <td>Cinnamon Cappuccino - $4</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Cappuccino - $4</td>
                     </tr>
                 </tbody>
-                <tfoot class="menu_ds" colspan="2">
-                        <th class="menu_item">
-                            Desserts</th>
-                        <td>
+                <tfoot class="menu_ds">
+                    <tr>
+                        <th colspan="2" scope="col" class="menu_item">
+                            Desserts
                             <ul>
-                                <li>Croissant</li>
-                                <li>Cheesecake</li>
-                                <li>Tiramisu</li>
+                                <li>Croissant - $4.2</li>
+                                <li>Cheesecake - $4.2</li>
+                                <li>Tiramisu - $4.2</li>
                                 <li></li>
-                            </ul>    
-                        </td>
-                        </td>
-                        <td class="menu_item">$4.2</td>
+                            </ul>
+                        </th>
+                    </tr>
                 </tfoot>
             </table>
         </section>

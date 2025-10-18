@@ -12,10 +12,10 @@
 <body>
     <header class="header">
         <h1 class="header_h1">Coffee Haven</h1> 
-        <fieldset class="header_fieldset">
-            <img src="images/logo.jpg" alt="coffee haven logo" width="100px">
+        <figure class="header_figure">
+            <img src="images/logo.jpg" alt="coffee haven logo" width="100">
             <figcaption class="offscreen">Coffee Haven Logo</figcaption>    
-        </fieldset>
+        </figure>
         
         <ul class="header_ul">
             <li><a href="/">Home</a></li>
@@ -27,10 +27,10 @@
     <main class="main"> 
         <section id="hero" class="hero">
             <h2>Contact Us</h2>
-            <fieldset>
-                <img src="images/contact.png" alt="coffee hero" width="1280px" height="853">
+            <figure>
+                <img src="images/contact.png" alt="coffee hero" width="1280" height="853">
                 <figcaption class="offscreen">Coffee Hero</figcaption>
-            </fieldset>
+            </figure>
         </section>   
         <section class="location">
             <h2>Our Location</h2>
@@ -48,9 +48,9 @@
             <h2>Contact Form</h2>
             <form class="form-container contact_form">
                 <label for="name">Name: </label>
-                <input type="text" name="name">
+                <input type="text" id="name" name="name">
                 <label for="email">Email: </label>
-                <input type="email" name="email">
+                <input type="email" id="email" name="email">
                 <label for="message">Message: </label>
                 <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter your message..."></textarea>
                 <button type="submit">Send</button>
