@@ -44,11 +44,11 @@ Coffee Haven is a stylish and fully responsive coffee shop website that showcase
 
 
 ## ⚙️ Setup
-```bash
-# Clone the repository
-git clone https://github.com/samurai25/coffee-haven.git
+    ```bash
+    # Clone the repository
+    git clone https://github.com/samurai25/coffee-haven.git
 
-# Open index.html in your browser
+    # Open index.html in your browser
 
 ## 📜 License
 This project is open source and available under the MIT License.
