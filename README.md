@@ -1,23 +1,23 @@
 # ☕ Coffee Haven
 
-A modern coffee shop website built with HTML, CSS, and JavaScript.
+    A modern coffee shop website built with HTML, CSS, and JavaScript.
 
 ## Description
 
-Coffee Haven is a stylish and fully responsive coffee shop website that showcases menu, contact information, and elegant visuals. Designed to reflect the cozy atmosphere of a real cafe.
+    Coffee Haven is a stylish and fully responsive coffee shop website that showcases menu, contact information, and elegant visuals. Designed to reflect the cozy atmosphere of a real cafe.
 
 
 ## 🎨 Tech Stack
-- HTML5
-- CSS3
-- Fonts: Montserrat & Raleway
+    - HTML5
+    - CSS3
+    - Fonts: Montserrat & Raleway
 
 
 ## 🚀 Features
-- Responsive design (mobile-friendly)
-- Dark theme mode
-- Menu categories: Espresso, Latte, Cappuccino, Desserts
-- Contact page with working hours and address
+    - Responsive design (mobile-friendly)
+    - Dark theme mode
+    - Menu categories: Espresso, Latte, Cappuccino, Desserts
+    - Contact page with working hours and address
 
 
 ## Structure
@@ -36,11 +36,12 @@ Coffee Haven is a stylish and fully responsive coffee shop website that showcase
         └── main.js        # JavaScript logic
 
 ## Contact
-## Email
-- python2719@gmail.com
+### Email
+    - python2719@gmail.com
 
 ## 💡 Preview
-![Hero Section](images/hero-preview.png)
+    ![Hero Section](images/hero-preview-dark.png)
+    ![Hero Section](images/hero-preview-light.png)
 
 
 ## ⚙️ Setup
