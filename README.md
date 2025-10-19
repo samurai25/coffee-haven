@@ -21,19 +21,19 @@ Coffee Haven is a stylish and fully responsive coffee shop website that showcase
 
 
 ## Structure
-```markdown
-## 🗂️ Project Structure
-coffee-haven/
-│
-├── index.html         # Home page
-├── menu.html          # Menu page
-├── contact.html       # Contact page
-├── about.html         # About page
-├── images/            # Images
-├── css/
-│   └── style.css      # Main styles
-└── js/
-    └── main.js        # JavaScript logic
+    ```markdown
+    ## 🗂️ Project Structure
+    coffee-haven/
+    │
+    ├── index.html         # Home page
+    ├── menu.html          # Menu page
+    ├── contact.html       # Contact page
+    ├── about.html         # About page
+    ├── images/            # Images
+    ├── css/
+    │   └── style.css      # Main styles
+    └── js/
+        └── main.js        # JavaScript logic
 
 ## Contact
 ## Email
