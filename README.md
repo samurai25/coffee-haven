@@ -37,10 +37,11 @@
 
 ## Contact
 ### Email
-    - python2719@gmail.com
+- python2719@gmail.com
 
 ## 💡 Preview
 ![Hero Section](images/hero-preview-dark.png)
+
 ![Hero Section](images/hero-preview-light.png)
 
 
